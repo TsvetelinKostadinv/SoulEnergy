@@ -1,4 +1,4 @@
-package SoulEnergy;
+package soulEnergy;
 
 import net.minecraftforge.fml.common.Mod;
 
