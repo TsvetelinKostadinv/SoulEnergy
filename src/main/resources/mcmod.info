@@ -1,0 +1,16 @@
+[
+{
+  "modid": "soulen",
+  "name": "Soul Energy",
+  "description": "Tap into your inner energy portal and delve into unbeliavable new depths of technology",
+  "version": "1.0",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": [ "TheCore" ],
+  "credits": "I'd like to thank my mother and father.",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
