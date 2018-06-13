@@ -5,4 +5,4 @@
  * @author Tsvetelin
  *
  */
-package soulEnergy.client;
+package com.soulEnergy.client;

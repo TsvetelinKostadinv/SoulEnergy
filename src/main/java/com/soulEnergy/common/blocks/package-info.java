@@ -5,4 +5,4 @@
  * @author Tsvetelin
  *
  */
-package soulEnergy.common.blocks;
+package com.soulEnergy.common.blocks;
