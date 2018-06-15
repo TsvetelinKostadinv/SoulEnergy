@@ -1,14 +1,14 @@
 [
 {
-  "modid": "soulen",
+  "modid": "soulenergy",
   "name": "Soul Energy",
-  "description": "Tap into your inner energy portal and delve into unbeliavable new depths of technology",
+  "description": "Electricity and magic aren't good friends, but what happens when i touch this wire with this powder",
   "version": "1.0",
-  "mcversion": "${mcversion}",
+  "mcversion": "1.12.2",
   "url": "",
   "updateUrl": "",
-  "authorList": [ "TheCore" ],
-  "credits": "I'd like to thank my mother and father.",
+  "authorList": ["TheCore"],
+  "credits": "I want to thank my mother and father",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []
