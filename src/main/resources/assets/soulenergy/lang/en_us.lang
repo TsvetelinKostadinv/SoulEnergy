@@ -1,5 +1,5 @@
 
 //Items
-item.ruby.name=Ruby
-item.obsidian_ingot.name=Obsidian Ingot
-item.basic_battery.name=Basic Battery
+item.soulenergy.ruby.name=Ruby
+item.soulenergy.obsidian_ingot.name=Obsidian Ingot
+item.soulenergy.basic_battery.name=Basic Battery

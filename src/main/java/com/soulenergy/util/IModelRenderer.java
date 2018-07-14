@@ -1,6 +1,6 @@
 package com.soulenergy.util;
 
-public interface IHasModel 
+public interface IModelRenderer 
 {
 	public void registerModels();
 }

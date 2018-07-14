@@ -2,8 +2,9 @@ package com.soulenergy.util.handlers;
 
 
 
-import com.soulenergy.init.ModItems;
-import com.soulenergy.util.IHasModel;
+import com.soulenergy.init.ItemsContainer;
+import com.soulenergy.items.ItemCore;
+import com.soulenergy.util.IModelRenderer;
 
 import net.minecraft.item.Item;
 import net.minecraftforge.client.event.ModelRegistryEvent;
@@ -17,17 +18,17 @@ public class RegistryHandler
 	@SubscribeEvent
 	public static void onItemRegister(RegistryEvent.Register<Item> event)
 	{
-		event.getRegistry().registerAll(ModItems.ITEMS.toArray(new Item[0]));
+		event.getRegistry().registerAll(ItemsContainer.ITEMS.toArray(new Item[0]));
 	}
 	
 	@SubscribeEvent
 	public static void onModelRegister(ModelRegistryEvent event)
 	{
-		for(Item item : ModItems.ITEMS)
+		for(ItemCore item : ItemsContainer.ITEMS)
 		{
-			if(item instanceof IHasModel)
+			if(item instanceof IModelRenderer)
 			{
-				((IHasModel)item).registerModels();
+				((IModelRenderer)item).registerModels();
 			}
 		}
 	}
